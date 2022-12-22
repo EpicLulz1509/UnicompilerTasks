@@ -35,9 +35,8 @@ def PauseVideo():
     videoplayer.pause()
     
  
-# center this label
-lbl1 = Label(window, text="Tkinter Video Player", bg="orange red",
-             fg="white", font="none 24 bold")
+
+lbl1 = Label(window, text="Tkinter Video Player", bg="orange red", fg="white", font="none 24 bold")
 lbl1.config(anchor=CENTER)
 lbl1.pack()
  
